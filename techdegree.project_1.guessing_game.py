@@ -28,7 +28,6 @@ def start_game():
     print("Can you guess the correct number with fewer guesses?")
   else:
     print("There is currently no high score.")
-
   while True:
     try:
       guessed_number = int(input("What number would you like to guess?  >>  "))
