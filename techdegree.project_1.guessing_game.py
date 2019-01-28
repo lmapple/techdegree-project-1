@@ -16,6 +16,8 @@ def new_high_score(number_of_guesses):
     high_score.pop(1)
   elif high_score[0] > high_score[1]:
     high_score.pop(0)
+  elif high_score[0] = high_score[1]:
+    high_score.pop(1)
     
     
 def start_game():
